@@ -10,7 +10,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-
       colors: {
         'Dark-Blue': 'hsl(233, 26%, 24%)',
         'Lime-Green': 'hsl(136, 65%, 51%)',

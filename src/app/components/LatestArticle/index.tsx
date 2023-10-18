@@ -37,9 +37,9 @@ const index = () => {
         <section className='bg-white py-16'>
             <div className='container mx-auto'>
                 <h2 className='mb-10 text-4xl md:text-left text-center'>Latest Articles</h2>
-                <div className='flex flex-wrap flex-row xl:justify-between md:justify-evenly justify-center'>
+                <div className='flex flex-wrap flex-row xl:justify-between md:justify-evenly justify-center gap-y-7'>
                     {latest_article_data.map((data, i ) => 
-                        <div key={i} className='shadow-md w-[300px]'>
+                        <div key={i} className='shadow-md w-[300px] rounded-lg overflow-hidden'>
                             <div className='w-full'>
                                 <Image src={data.img} alt={data.title} className='aspect-video object-cover '/>
                             </div>

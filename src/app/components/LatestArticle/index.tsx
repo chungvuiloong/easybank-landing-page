@@ -43,7 +43,7 @@ const index = () => {
                             <div className='w-full'>
                                 <Image src={data.img} alt={data.title} className='aspect-video object-cover '/>
                             </div>
-                            <div className='p-5'>
+                            <div className='flex flex-col gap-2 p-5'>
                                 <div className='text-xs'>By {data.author}</div>
                                 <h3 className='text-lg leading-6'>{data.title}</h3>
                                 <p className='md:text-sm text-xs'>{data.content}</p>

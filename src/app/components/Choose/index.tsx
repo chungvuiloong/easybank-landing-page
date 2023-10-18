@@ -31,11 +31,16 @@ const bank_features = [
 const index = () => {
     return (
         <section className='bg-slate-100 py-16'>
-            <div className='container mx-auto flex flex-col'>
-                <div className='basis-[6/10] flex flex-col gap-6 mb-10 md:text-left text-center'>
-                    <h2 className=' text-4xl opacity-80'>Why choose Easybank?</h2>
-                    <p className='text-Dark-Blue opacity-50 md:text-base text-[1px]'> We leverage Open Banking to turn your bank account into your financial hub. Control 
-  your finances like never before.</p>
+            <div className='container mx-auto'>
+                <div className='flex flex-row basis-[50%]'>
+                    <div className='flex flex-col md:gap-6 gap-4 mb-16 md:text-left text-center'>
+                        <h2 className=' text-4xl opacity-80'>Why choose Easybank?</h2>
+                        <p className='text-Dark-Blue opacity-50 md:text-[17px] text-xs leading-[26px]'> We leverage Open Banking to turn your bank account into your financial hub. Control 
+    your finances like never before.</p>
+                    </div>
+                    <div className='basis-[50%] lg:block hidden'>
+                    {" "}
+                    </div>
                 </div>
                 <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-7 gap-x-7'>
                 {

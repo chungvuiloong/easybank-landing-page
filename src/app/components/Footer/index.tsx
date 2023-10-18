@@ -6,6 +6,7 @@ import Youtube_Icon from '@/assets/images/icon-youtube.svg'
 import Twitter_Icon from '@/assets/images/icon-twitter.svg'
 import Pinterest_Icon from '@/assets/images/icon-pinterest.svg'
 import Instagram_Icon from '@/assets/images/icon-instagram.svg'
+import Button from '@/components/Button'
 
 const index = () => {
     return (
@@ -52,7 +53,7 @@ const index = () => {
                         </div>
                     </div>
                     <div className='basis-1/2 flex flex-col justify-between gap-y-7'>
-                        <button className='px-8 py-2 md:self-end self-center bg-gradient-to-r from-Lime-Green to-Bright-Cyan text-White rounded-full'>Request Invite</button>
+                        <Button />
                         <div className='text-Light-Grayish-Blue md:self-end self-center opacity-50'>  © Easybank. All Rights Reserved</div>
                     </div>
                 </div>

@@ -39,11 +39,11 @@ const index = () => {
                 <h2 className='mb-10 text-4xl md:text-left text-center'>Latest Articles</h2>
                 <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-6 gap-x-7'>
                     {latest_article_data.map((data, i ) => 
-                        <div key={i} className='lg:basis-1/4 md:basis-1/2 basis-1/2 shadow-md rounded-lg overflow-hidden flex flex-col'>
+                        <div key={i} className='shadow-md rounded-lg overflow-hidden flex flex-col'>
                             <div className='basis-1/2 w-full'>
                                 <Image src={data.img} alt={data.title} className='aspect-video object-cover '/>
                             </div>
-                            <div className='basis-1/2 flex flex-col gap-2 md:px-5 px-8 py-7 text-Dark-Blue'>
+                            <div className='flex flex-col gap-2 md:px-5 px-8 py-7 text-Dark-Blue'>
                                 <div className='text-[10px] opacity-50'>By {data.author}</div>
                                 <h3 className='text-md leading-5'>{data.title}</h3>
                                 <p className='text-[12px] opacity-50'>{data.content}</p>

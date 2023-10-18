@@ -34,9 +34,9 @@ const latest_article_data  = [
 
 const index = () => {
     return (
-        <section className='bg-white'>
+        <section className='bg-white py-16'>
             <div className='container mx-auto'>
-                <h2 className='text-4xl md:text-left text-center'>Latest Articles</h2>
+                <h2 className='mb-10 text-4xl md:text-left text-center'>Latest Articles</h2>
                 <div className='flex flex-wrap flex-row xl:justify-between md:justify-evenly justify-center'>
                     {latest_article_data.map((data, i ) => 
                         <div key={i} className='shadow-md w-[300px]'>

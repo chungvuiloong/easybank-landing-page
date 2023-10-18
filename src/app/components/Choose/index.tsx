@@ -49,7 +49,7 @@ const index = () => {
                             <div className='md:self-start self-center'>
                                 <Image src={data.logo} alt='test' />
                             </div>
-                            <div className='flex flex-col md:gap-7 gap-5'> 
+                            <div className='flex flex-col gap-5'> 
                                 <h3 className='lg:text-xl text-lg leading-5 opacity-70'>{data.title}</h3>
                                 <p className='md:text-[16px] text-xs text-Dark-Blue opacity-50 leading-[26px]'>{data.content}</p>
                             </div>

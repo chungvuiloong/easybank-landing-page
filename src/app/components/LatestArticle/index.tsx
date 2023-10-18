@@ -37,16 +37,16 @@ const index = () => {
         <section className='bg-White py-16'>
             <div className='container mx-auto'>
                 <h2 className='mb-10 text-4xl md:text-left text-center'>Latest Articles</h2>
-                <div className='flex flex-wrap flex-row xl:justify-between md:justify-evenly justify-center gap-y-7'>
+                <div className='flex md:flex-row flex-col  justify-center gap-y-7 gap-x-7'>
                     {latest_article_data.map((data, i ) => 
-                        <div key={i} className='shadow-md w-[300px] rounded-lg overflow-hidden'>
-                            <div className='w-full'>
+                        <div key={i} className='lg:basis-1/4 md:basis-1/2 basis-1/2 shadow-md rounded-lg overflow-hidden flex flex-col'>
+                            <div className='basis-1/2 w-full'>
                                 <Image src={data.img} alt={data.title} className='aspect-video object-cover '/>
                             </div>
-                            <div className='flex flex-col gap-2 md:px-5 px-8 py-7'>
-                                <div className='text-xs'>By {data.author}</div>
-                                <h3 className='text-lg leading-6'>{data.title}</h3>
-                                <p className='md:text-sm text-xs'>{data.content}</p>
+                            <div className='basis-1/2 flex flex-col gap-2 md:px-5 px-8 py-7 text-Dark-Blue'>
+                                <div className='text-[10px] opacity-50'>By {data.author}</div>
+                                <h3 className='text-md leading-5'>{data.title}</h3>
+                                <p className='text-[12px] opacity-50'>{data.content}</p>
                             </div>
                         </div>
                     )}

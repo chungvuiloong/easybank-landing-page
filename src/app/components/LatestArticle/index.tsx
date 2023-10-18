@@ -37,7 +37,7 @@ const index = () => {
         <section className='bg-White py-16'>
             <div className='container mx-auto'>
                 <h2 className='mb-10 text-4xl md:text-left text-center'>Latest Articles</h2>
-                <div className='flex md:flex-row flex-col  justify-center gap-y-7 gap-x-7'>
+                <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-6 gap-x-7'>
                     {latest_article_data.map((data, i ) => 
                         <div key={i} className='lg:basis-1/4 md:basis-1/2 basis-1/2 shadow-md rounded-lg overflow-hidden flex flex-col'>
                             <div className='basis-1/2 w-full'>

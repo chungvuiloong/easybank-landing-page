@@ -41,7 +41,7 @@ const index = () => {
                     {latest_article_data.map((data, i ) => 
                         <div key={i} className='shadow-md w-[300px]'>
                             <div className='w-full'>
-                                <Image src={data.img} alt={data.title} className='h-[280px] object-cover'/>
+                                <Image src={data.img} alt={data.title} className='aspect-video object-cover '/>
                             </div>
                             <div className='p-5'>
                                 <div className='text-xs'>By {data.author}</div>

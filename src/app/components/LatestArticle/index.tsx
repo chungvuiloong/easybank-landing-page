@@ -34,7 +34,7 @@ const latest_article_data  = [
 
 const index = () => {
     return (
-        <section className='bg-white py-16'>
+        <section className='bg-White py-16'>
             <div className='container mx-auto'>
                 <h2 className='mb-10 text-4xl md:text-left text-center'>Latest Articles</h2>
                 <div className='flex flex-wrap flex-row xl:justify-between md:justify-evenly justify-center gap-y-7'>
@@ -43,7 +43,7 @@ const index = () => {
                             <div className='w-full'>
                                 <Image src={data.img} alt={data.title} className='aspect-video object-cover '/>
                             </div>
-                            <div className='flex flex-col gap-2 p-5'>
+                            <div className='flex flex-col gap-2 md:px-5 px-8 py-7'>
                                 <div className='text-xs'>By {data.author}</div>
                                 <h3 className='text-lg leading-6'>{data.title}</h3>
                                 <p className='md:text-sm text-xs'>{data.content}</p>

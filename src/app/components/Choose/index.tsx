@@ -45,7 +45,7 @@ const index = () => {
                 <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-7 gap-x-7'>
                 {
                     bank_features.map((data, i)=>
-                        <div key={i} className='flex flex-col md:gap-10 gap-7 md:text-left text-center'>
+                        <div key={i} className='flex flex-col gap-7 md:text-left text-center'>
                             <div className='md:self-start self-center'>
                                 <Image src={data.logo} alt='test' />
                             </div>

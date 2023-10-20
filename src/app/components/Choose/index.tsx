@@ -51,7 +51,7 @@ const index = () => {
                             </div>
                             <div className='flex flex-col gap-5'> 
                                 <h3 className='lg:text-xl text-lg leading-5 opacity-70'>{data.title}</h3>
-                                <p className='md:text-[16px] text-xs text-Dark-Blue opacity-50 leading-[26px]'>{data.content}</p>
+                                <p className='text-xs text-Dark-Blue opacity-50 leading-[22px]'>{data.content}</p>
                             </div>
                         </div>
                     )

@@ -34,7 +34,7 @@ const latest_article_data  = [
 
 const index = () => {
     return (
-        <section className='bg-White py-16'>
+        <section className='bg-White py-24'>
             <div className='container mx-auto'>
                 <h2 className='mb-10 md:text-4xl text-3xl md:text-left text-center opacity-80'>Latest Articles</h2>
                 <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-6 gap-x-7'>

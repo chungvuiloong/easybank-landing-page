@@ -45,13 +45,13 @@ const index = () => {
                 <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-7 gap-x-7'>
                 {
                     bank_features.map((data, i)=>
-                        <div key={i} className='flex flex-col gap-7 md:text-left text-center'>
+                        <div key={i} className='flex flex-col gap-9 md:text-left text-center'>
                             <div className='md:self-start self-center'>
                                 <Image src={data.logo} alt='test' />
                             </div>
                             <div className='flex flex-col gap-5'> 
                                 <h3 className='lg:text-xl text-lg leading-5 opacity-70'>{data.title}</h3>
-                                <p className='text-xs text-Dark-Blue opacity-50 leading-[22px]'>{data.content}</p>
+                                <p className='text-[16px] text-Dark-Blue opacity-50 leading-[24px]'>{data.content}</p>
                             </div>
                         </div>
                     )

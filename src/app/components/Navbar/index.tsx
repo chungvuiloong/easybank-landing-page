@@ -12,14 +12,14 @@ const index = () => {
                     <div className='self-center'>
                         <Image src={company_logo} alt='Company Logo' />
                     </div>
-                    <ul className='flex flex-row gap-5 self-center text-xs text-Dark-Blue opacity-50'>
+                    <ul className='md:flex hidden flex-row gap-5 self-center text-xs text-Dark-Blue opacity-50'>
                         <li><Link href="home.html">Home</Link></li>
                         <li><Link href="about.html">About</Link></li>
                         <li><Link href="contact.html">Contact</Link></li>
                         <li><Link href="blog.html">Blog</Link></li>
                         <li><Link href="careers.html">Careers</Link></li>
                         </ul>
-                    <Button />
+                    <Button  />
                 </div>
             </div>
         </nav>

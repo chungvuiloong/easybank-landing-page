@@ -30,7 +30,7 @@ const bank_features = [
 
 const index = () => {
     return (
-        <section className='bg-slate-100 py-24'>
+        <section className='bg-slate-100 py-24 lg:-mt-56 mt-0'>
             <div className='container mx-auto'>
                 <div className='flex flex-row basis-[50%]'>
                     <div className='flex flex-col flex-start md:gap-6 gap-4 md:mb-16 mb-14 md:text-left text-center'>

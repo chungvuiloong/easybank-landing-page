@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const index = () => {
     return (
-        <nav className='py-4'>
+        <nav className='py-4 bg-White'>
             <div className='container mx-auto'>
                 <div className='flex flex-row justify-between'>                
                     <div className='self-center'>

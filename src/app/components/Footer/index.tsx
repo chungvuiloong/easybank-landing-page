@@ -57,6 +57,15 @@ const index = () => {
                         <div className='text-Light-Grayish-Blue md:self-end self-center opacity-50'>  © Easybank. All Rights Reserved</div>
                     </div>
                 </div>
+                <div className='py-10   w-full text-white text-center'>
+                    Challenge by{" "}
+                    <a href="https://www.frontendmentor.io?ref=challenge" 
+                        target="_blank" 
+                        rel="noreferrer" 
+                        className='underline underline-offset-4'>
+                            Frontend Mentor</a>. 
+                        Coded with enthusiasm by <a href="https://github.com/chungvuiloong" className='underline underline-offset-4'>Jere / Chung Vui Loong</a>.
+                </div>
             </div>
         </footer>
     );

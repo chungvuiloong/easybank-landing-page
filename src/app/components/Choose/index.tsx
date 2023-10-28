@@ -34,7 +34,7 @@ const index = () => {
             <div className='container mx-auto'>
                 <div className='flex flex-row basis-[50%]'>
                     <div className='flex flex-col flex-start md:gap-6 gap-4 md:mb-16 mb-14 md:text-left text-center'>
-                        <h2 className=' md:text-4xl text-3xl opacity-80'>Why choose Easybank?</h2>
+                        <h2 className=' md:text-4xl text-3xl  text-Dark-Blue'>Why choose Easybank?</h2>
                         <p className='text-Dark-Blue opacity-50 md:text-[17px] text-xs leading-[26px]'> 
                             We leverage Open Banking to turn your bank account into your financial hub. Control 
                             your finances like never before.
@@ -52,7 +52,7 @@ const index = () => {
                                 <Image src={data.logo} alt='test' />
                             </div>
                             <div className='flex flex-col gap-5'> 
-                                <h3 className='lg:text-xl text-lg leading-5 opacity-70'>{data.title}</h3>
+                                <h3 className='lg:text-xl text-lg leading-5 opacity-70 text-Dark-Blue'>{data.title}</h3>
                                 <p className='text-[16px] text-Dark-Blue opacity-50 leading-[24px]'>{data.content}</p>
                             </div>
                         </div>
